@@ -19,10 +19,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/hi846:$(TARGET_COPY_OUT_ODM)/etc/camera/config/hi846 \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/imx471:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx471 \
+    vendor/realme/bitra/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/ov02b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov02b \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/s5kgw1:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5kgw1 \
+    vendor/realme/bitra/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/realme/bitra/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVACFS_Configuration.txt \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat \
@@ -93,11 +95,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin \
     vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.shine_ov02b.bin \
     vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.truly_hi846.bin \
-    vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.truly_imx471.bin \
+    vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.sensormodule.truly_imx471_2169A.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.truly_imx471_2169A.bin \
     vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin \
     vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_shine_ov02b.bin \
     vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin \
-    vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin \
+    vendor/realme/bitra/proprietary/odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471_2169A.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sm8250_truly_imx471_2169A.bin \
     vendor/realme/bitra/proprietary/odm/vendor/firmware/ancap64.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b00 \
     vendor/realme/bitra/proprietary/odm/vendor/firmware/ancap64.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b01 \
     vendor/realme/bitra/proprietary/odm/vendor/firmware/ancap64.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b02 \
